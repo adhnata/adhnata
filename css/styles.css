@@ -136,18 +136,21 @@ a { text-decoration: none; }
   margin-block: 1.5rem;
 }
 .sneak‑grid {
-  display: grid;
-  gap: 1rem;
-  grid-template-columns: repeat(auto-fit,minmax(200px,1fr));
-}
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+    margin-top: 1.5rem;
+  }
 .sneak‑grid figure {
   margin: 0;
   text-align: center;
 }
 .sneak‑grid img {
-  width: 100%;
-  border-radius: var(--radius);
-}
+    width: 100%;
+    height: 300px;     
+    object-fit: cover;  
+    border-radius: var(--radius);
+  }
 .table‑wrapper {
   overflow-x: auto;
   margin-top: 1rem;
@@ -177,11 +180,18 @@ a { text-decoration: none; }
   border-radius: var(--radius);
 }
 .gallery‑grid {
-  display: grid;
-  gap: 1rem;
-  grid-template-columns: repeat(auto-fit,minmax(260px,1fr));
-  margin-top: 1.25rem;
-}
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+    margin-top: 1.25rem;
+  }
+  
+  .gallery‑grid img {
+    width: 100%;
+    height: 300px;      
+    object-fit: cover; 
+    border-radius: var(--radius);
+  }
 .gallery‑title { margin-top: 2rem; }
 
 /*  Catering  */
