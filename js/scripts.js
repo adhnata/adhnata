@@ -1,4 +1,3 @@
-//  Mobile nav toggle
 const navToggle = document.querySelector(".nav‑toggle");
 const siteNav   = document.getElementById("siteNav");
 
