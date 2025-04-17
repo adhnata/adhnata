@@ -235,12 +235,10 @@ a { text-decoration: none; }
 }
 .place‑title { margin-top: 3rem; }
 .order-overlay .btn-primary {
-  /* increase left/right padding */
-  padding: 0.6rem 2rem;
-  /* or enforce a minimum width instead:
-  min-width: 12rem;
-  */
+  padding: 0.8rem 2.5rem;
+  font-size: 1.1rem;       
 }
+
 
 /*  Order Form  */
 .order‑form {
