@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700&family=Open+Sans:wght@400;500&display=swap" rel="stylesheet" />
+  <title>Carolina Crumbs Bakery</title>
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+  <header class="site‑header">
+    <a class="logo" href="#home">Carolina Crumbs</a>
+    <button class="nav‑toggle" aria‑label="Toggle navigation">
+      <span class="hamburger"></span>
+    </button>
+    <nav class="site‑nav" id="siteNav">
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#menu">Menu</a></li>
+        <li><a href="#order">Order</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section id="home" class="section home‑section">
+      <h1 class="home‑headline">Chapel Hill’s Home for Fresh, Hand‑Crafted Bakes</h1>
+      <p class="intro">
+        Nestled steps from Franklin Street, our family bakery has been sweetening Chapel Hill since 1997.
+        From sunrise sourdoughs to late‑night macarons, every treat is mixed, rolled, and baked on‑site
+        with local North Carolina ingredients and a pinch of Tar Heel pride.
+      </p>
+      <figure class="hero‑img">
+        <img src="img/herobakery.jpg" alt="Bakery interior with wall of fresh bread" />
+      </figure>
+      <h2 class="sub‑title">A Sneak Peak</h2>
+      <div class="sneak‑grid">
+        <figure>
+          <img src="img/sneakone.jpg" alt="Cinnamon rolls on parchment" />
+          <figcaption>Sin‑namon rolls</figcaption>
+        </figure>
+        <figure>
+          <img src="img/sneaktwo.jpg" alt="Assorted pastries on wooden board" />
+          <figcaption>Taste of Europe</figcaption>
+        </figure>
+        <figure>
+          <img src="img/sneakthree.jpg" alt="Wine and bread gift basket" />
+          <figcaption>Bread, Peach, and Wine</figcaption>
+        </figure>
+      </div>
+
+      <h2 class="sub‑title">Nutritional Info</h2>
+      <div class="table‑wrapper">
+        <table class="nutrition‑table">
+          <thead>
+            <tr><th>Item</th><th>Serving</th><th>Calories</th></tr>
+          </thead>
+          <tbody>
+            <tr><td>Sourdough Bread</td><td>1 slice (50 g)</td><td>97 kcal</td></tr>
+            <tr><td>Chocolate Croissant</td><td>1 pc (60 g)</td><td>270 kcal</td></tr>
+            <tr><td>Blueberry Muffin</td><td>1 muffin (75 g)</td><td>315 kcal</td></tr>
+            <tr><td>Pecan Turnover</td><td>1 pc (65 g)</td><td>285 kcal</td></tr>
+            <tr><td>Macaron</td><td>1 pc (15 g)</td><td>56 kcal</td></tr>
+            <tr class="extra-row" hidden><td>Brioche Loaf</td><td>1 slice (45 g)</td><td>120 kcal</td></tr>
+            <tr class="extra-row" hidden><td>Pecan Turnover</td><td>1 pc (65 g)</td><td>285 kcal</td></tr>
+            <tr class="extra-row" hidden><td>German Apple Cake</td><td>1 slice (95 g)</td><td>310 kcal</td></tr>
+            <tr class="extra-row" hidden><td>Macaron Cake</td><td>1 slice (90 g)</td><td>330 kcal</td></tr>
+            <tr class="extra-row" hidden><td>Lemon Tart</td><td>1 tart (80 g)</td><td>275 kcal</td></tr>
+            <tr class="extra-row" hidden><td>Cheese Danish</td><td>1 pc (70 g)</td><td>295 kcal</td></tr>
+            <tr class="extra-row" hidden><td>Everything Focaccia</td><td>1 slice (55 g)</td><td>140 kcal</td></tr>
+            <tr class="extra-row" hidden><td>Gluten‑Free Brownie</td><td>1 pc (50 g)</td><td>210 kcal</td></tr>
+            <tr class="extra-row" hidden><td>Salted Caramel Macaron</td><td>1 pc (15 g)</td><td>56 kcal</td></tr>
+            <tr class="extra-row" hidden><td>Seasonal Quiche Slice</td><td>1 slice (100 g)</td><td>320 kcal</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <button id="nutriToggle" class="btn‑primary read‑more" aria-controls="nutriTable" aria-expanded="false">
+        Read more
+      </button>
+    </section>
+    <section id="menu" class="section menu‑section">
+      <h2 class="section‑title">Menu</h2>
+      <p class="menu‑intro">Take a look at our offerings!</p>
+
+      <div class="menu‑grid">
+        <article class="menu‑item">
+          <img src="img/menusourdough.jpg" alt="Crusty loaf of sourdough bread" />
+          <h3>Sourdough Bread</h3>
+          <p>Crusty exterior, tangy flavor</p>
+        </article>
+        <article class="menu‑item">
+          <img src="img/menucroissant.jpg" alt="Flaky chocolate croissant" />
+          <h3>Chocolate Croissant</h3>
+          <p>Flaky pastry with a chocolate center</p>
+        </article>
+        <article class="menu‑item">
+          <img src="img/menumuffin.jpg" alt="Blueberry muffin with crumbs" />
+          <h3>Blueberry Muffin</h3>
+          <p>Loaded with juicy blueberries</p>
+        </article>
+      </div>
+
+      <h3 class="gallery‑title">Product Gallery</h3>
+      <div class="gallery‑grid">
+        <img src="img/merchone.jpg" alt="Branded tote, mug, and stickers" />
+        <img src="img/merchtwo.jpg" alt="Bakery T‑shirts on wooden hangers" />
+      </div>
+
+      <h3>Catering Inquiries</h3>
+      <p class="catering‑blurb">
+        Minimum $150 or 12‑dozen pastries. 72‑hour notice for standard orders,
+        7 days for custom cakes or large events.
+      </p>
+      <div class="btn‑group">
+        <button id="quoteToggle" class="btn‑primary" type="button" aria-expanded="false" aria-controls="quoteForm">
+          Request a Quote
+        </button>
+      </div>
+
+      <form id="quoteForm" class="quote-form" hidden novalidate>
+        <label for="quoteEmail">Your Email</label>
+        <input type="email" id="quoteEmail" name="quote-email" placeholder="you@example.com" required />
+
+        <label for="quoteDetails">Order Details</label>
+        <textarea id="quoteDetails" name="quote-details" rows="4" placeholder="Tell us what you need…" required></textarea>
+
+        <button id="submitQuote" class="btn‑primary" type="submit">
+          Submit
+        </button>
+      </form>
+
+      <div id="quoteMessage" class="quote-message" role="status" hidden>
+        Submitted Successfully!
+      </div>
+
+      <h3>Collaboration Policy</h3>
+      <ol class="policy‑list">
+        <li>Partners within 100 mi of Chapel Hill.</li>
+        <li>Choose at least one local charity to benefit (e.g., NCDA, ServSafe).</li>
+        <li>Shared focus on sustainability, inclusion, and food safety.</li>
+        <li>Quarterly Q & A flyers with our head pastry scientists.</li>
+        <li>Co‑marketing: IG takeovers, vendor events, fundraisers.</li>
+        <li>Mutual benefit: adds value to both parties and our guests.</li>
+      </ol>
+
+      <h3 class="special-title">Daily Specials</h3>
+      <div class="menu‑grid">
+        <article class="menu‑item">
+          <img src="img/specialturnover.jpg" alt="Pecan turnovers on rack" />
+          <h3>Pecan Turnovers</h3>
+        </article>
+        <article class="menu‑item">
+          <img src="img/specialapple.jpg" alt="German apple cake slice" />
+          <h3>German Apple Cake</h3>
+        </article>
+        <article class="menu‑item">
+          <img src="img/specialmacaron.jpg" alt="Salted caramel macaron cake" />
+          <h3>Macaron Cake</h3>
+        </article>
+      </div>
+    </section>
+
+    <section id="order" class="section order-section">
+      <div id="orderContainer">
+        <h2 class="section-title">Place Your Order</h2>
+        <form id="order-form" class="order-form" novalidate>
+          <label>
+            Item
+            <select name="product" required>
+              <option value="" disabled selected>Select an item</option>
+              <option value="sourdough">Sourdough Bread</option>
+              <option value="croissant">Chocolate Croissant</option>
+              <option value="muffin">Blueberry Muffin</option>
+              <option value="turnover">Pecan Turnover</option>
+            </select>
+          </label>
+          <label>
+            Quantity
+            <input type="number" name="quantity" min="1" value="1" required />
+          </label>
+          <label>
+            Your Name
+            <input type="text" name="cust-name" required />
+          </label>
+          <label>
+            Your Email
+            <input type="email" name="cust-email" required />
+          </label>
+          <fieldset class="payment-block">
+            <legend>Billing Information</legend>
+            <label>
+              Name on Card
+              <input type="text" name="card-name" required />
+            </label>
+            <label>
+              Card Number
+              <input type="tel" name="card-number" pattern="[0-9\s]{13,19}" inputmode="numeric" placeholder="•••• •••• •••• ••••" required />
+            </label>
+            <label>
+              Security Code
+              <input type="text" name="card-cvv" pattern="\d{3,4}" required />
+            </label>
+            <label>
+              Billing Address
+              <textarea name="billing-address" rows="3"></textarea>
+            </label>
+          </fieldset>
+          <button class="btn-primary" type="submit">Submit Order</button>
+        </form>
+      </div>
+      <div id="orderConfirmation" class="order-confirmation" role="status" aria-live="polite" hidden>
+        <p id="orderThanks"></p>
+        <button id="newOrderBtn" class="btn-primary" type="button">
+          Place another order
+        </button>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site‑footer">
+    <p>&copy; 2025 Carolina Crumbs LLC · <a href="#home">Back to top</a></p>
+    <ul class="social‑list">
+      <li><a aria‑label="Instagram" href="#"><span class="visually‑hidden">Instagram</span></a></li>
+      <li><a aria‑label="Facebook" href="#"><span class="visually‑hidden">Facebook</span></a></li>
+      <li><a aria‑label="Twitter" href="#"><span class="visually‑hidden">Twitter / X</span></a></li>
+    </ul>
+  </footer>
+
+  <script src="js/scripts.js"></script>
+</body>
+</html>
